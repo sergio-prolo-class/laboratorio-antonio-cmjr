@@ -15,7 +15,7 @@ int main()
     scanf("%f %f %f", &p11, &p12, &r1);
 
     printf("Entre com P2 e R2: ");
-    scanf("%f %f", &p12, &r2);
+    scanf("%f %f", &p2, &r2);
 
     printf("Entre com a frequência (em %%): ");
     scanf("%f", &freq);
