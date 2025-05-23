@@ -5,9 +5,11 @@
 
 int main()
 {
+    // Variáveis
     int pes, pol;
     float metros;
 
+    // Início
     printf("Entre com sua altura em pés + polegadas (ex: 5 10): ");
     scanf("%d %d", &pes, &pol);
 
@@ -16,5 +18,6 @@ int main()
 
     printf("Altura em metros: %.2f\n", metros);
 
+    // Fim
     return 0;
 }
