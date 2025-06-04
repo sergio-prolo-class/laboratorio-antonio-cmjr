@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
@@ -24,15 +25,15 @@ int main()
         case '/':
             if (y == 0.0) {
                 printf("Errou!\n");
-                return 1;
+                return EXIT_FAILURE;
             }
             result = x / y;
             break;
         default:
             printf("Operação inválida\n");
-            return 1;
+            return EXIT_FAILURE;
     }
 
     printf("Resultado: %g\n", result);
-    return 0;
+    return EXIT_SUCCESS;
 }
