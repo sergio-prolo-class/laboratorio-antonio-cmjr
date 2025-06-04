@@ -18,6 +18,7 @@ int main()
     scanf("%f", &altura);
 
     imc = peso / (altura * altura);
+    printf("IMC: %.2f kg/m²\n", imc);
 
     // Escreva
     printf("Classificação: ");
